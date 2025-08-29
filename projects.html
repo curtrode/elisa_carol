@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects — Elisa Rode</title>
+    <meta name="description" content="Projects by Elisa Rode." />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">Elisa Rode</a>
+        <nav aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html" aria-current="page">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <h1>Projects</h1>
+        <p>Each card outlines problem, approach, and measurable impact.</p>
+      </section>
+
+      <section class="section grid">
+        <article id="alpha" class="card">
+          <h2>Project Alpha</h2>
+          <p class="meta">Role: Lead | Year: 2024</p>
+          <p>
+            Led an integrated brand and acquisition campaign for a financial client,
+            unifying messaging across web, email, and in‑branch. Improved member
+            growth and loyalty through clear value props and testing.
+          </p>
+          <ul>
+            <li>Action: Strategy, creative direction, copy, and channel orchestration.</li>
+            <li>Result: Lift in conversions and engagement; recognized by industry award programs.</li>
+          </ul>
+          <p class="tags-line">Focus: Strategy, Creative • Recognition: Industry awards programs</p>
+        </article>
+
+        <article id="beta" class="card">
+          <h2>Project Beta</h2>
+          <p class="meta">Role: IC | Year: 2023</p>
+          <p>
+            Refreshed brand voice and campaign messaging for a multi‑channel rollout
+            (paid, owned, earned). Delivered concise copy and testing plans.
+          </p>
+          <ul>
+            <li>Action: Messaging frameworks, copy, and A/B matrices.</li>
+            <li>Result: Higher CTR and response; work cited in award submissions.</li>
+          </ul>
+          <p class="tags-line">Focus: Copy, Messaging • Recognition: Industry awards programs</p>
+        </article>
+
+        <article id="gamma" class="card">
+          <h2>Project Gamma</h2>
+          <p class="meta">Role: PM | Year: 2022</p>
+          <p>
+            Led a data‑informed optimization effort across email, web, and social
+            to reduce friction and improve conversion paths.
+          </p>
+          <ul>
+            <li>Action: KPI mapping, analytics review, and backlog prioritization.</li>
+            <li>Result: Step‑change improvement in funnel KPIs; part of an award‑winning program.</li>
+          </ul>
+          <p class="tags-line">Focus: Digital, Analytics • Recognition: Industry program honors</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Elisa Rode. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>

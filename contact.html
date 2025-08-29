@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact — Elisa Rode</title>
+    <meta name="description" content="Contact Elisa Rode." />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">Elisa Rode</a>
+        <nav aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <h1>Get in touch</h1>
+        <p>For opportunities and collaborations, reach out by email or phone.</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:elisa@kearley.com">elisa@kearley.com</a></li>
+          <li><strong>Phone:</strong> <a href="tel:+18173723556">817.372.3556</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/kearleyandco/">linkedin.com/company/kearleyandco</a></li>
+          <li><strong>Website:</strong> <a href="https://kearley.com">kearley.com</a></li>
+          <li><strong>Address:</strong> 328 Hemphill Street, Fort Worth, TX 76104</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Elisa Rode. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
