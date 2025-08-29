@@ -673,15 +673,19 @@ section {
     flex-direction: column;
     padding: var(--spacing-lg);
     box-shadow: var(--shadow-lg);
-    transform: translateY(-100%);
+    transform: translateY(-120%);
     transition: transform 0.3s ease;
     z-index: 999;
     border-top: 1px solid var(--gray-200);
     display: flex;
+    opacity: 0;
+    visibility: hidden;
   }
   
   .nav-menu.active {
     transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
   }
   
   .nav-link {
