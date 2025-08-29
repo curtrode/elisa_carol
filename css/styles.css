@@ -73,9 +73,12 @@ a:hover { text-decoration: underline; }
 
 .section { padding: 28px 0; }
 .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
 .card { background: var(--panel); border: 1px solid rgba(255,255,255,0.08); padding: 18px; border-radius: var(--radius); box-shadow: var(--shadow); }
 .card h3, .card h2 { margin-top: 0; }
 .meta { color: var(--muted); font-size: 14px; }
+/* Full-width hero card at top of About */
+.cards .hero-card { grid-column: 1 / -1; }
 
 .tags { list-style: none; padding: 0; margin: 0; display: flex; gap: 10px; flex-wrap: wrap; }
 .tags li { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); padding: 6px 10px; border-radius: 999px; }
@@ -92,6 +95,7 @@ a:hover { text-decoration: underline; }
   .hero { grid-template-columns: 240px 1fr; gap: 20px; padding: 48px 0; }
   .hero .avatar { width: 240px; height: 240px; }
   .hero-copy h1 { font-size: 28px; }
+  .cards { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 560px) {
