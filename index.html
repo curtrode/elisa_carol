@@ -12,26 +12,22 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="nav-logo">Elisa Rode</a>
-            <div class="nav-menu">
+                        <div class="nav-menu">
                 <a href="#home" class="nav-link">Home</a>
                 <a href="#about" class="nav-link">About</a>
                 <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
@@ -43,7 +39,9 @@
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="Elisa-1.jpg" alt="Elisa Rode - Marketing Consultant" class="profile-img">
+                    <div class="profile-frame">
+                        <img src="Elisa-1.jpg" alt="Elisa Rode - Marketing Consultant" class="profile-img">
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,6 +61,31 @@
                     <p>My journey began in 2003 as a copywriter and strategist at Kearley & Company. Through dedication and strategic vision, I became Vice President in 2008 and purchased the firm in 2010. Today, I continue to lead as CEO while actively writing, consulting, speaking, and supporting our digital marketing initiatives.</p>
                     
                     <p>I hold a Master's degree in Strategic Communication from Texas Christian University (2022), where my graduate research focused on credit unions and corporate purpose. I also earned a B.S. from TCU in FTVDM and Advertising/Public Relations.</p>
+                    
+                    <div class="credentials-images">
+                        <div class="credential-item">
+                            <div class="credential-logo">
+                                <div class="logo-placeholder tcu-logo">
+                                    <span>TCU</span>
+                                </div>
+                            </div>
+                            <div class="credential-text">
+                                <h4>Texas Christian University</h4>
+                                <p>Master's in Strategic Communication</p>
+                            </div>
+                        </div>
+                        <div class="credential-item">
+                            <div class="credential-logo">
+                                <div class="logo-placeholder kearley-logo">
+                                    <span>K&C</span>
+                                </div>
+                            </div>
+                            <div class="credential-text">
+                                <h4>Kearley & Company</h4>
+                                <p>Owner & CEO since 2010</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="about-stats">
                     <div class="stat">
@@ -76,6 +99,36 @@
                     <div class="stat">
                         <h3>15+</h3>
                         <p>Industry Awards</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Team/Office Images Section -->
+            <div class="office-showcase">
+                <h3>Our Fort Worth Office</h3>
+                <div class="office-gallery">
+                    <div class="office-image">
+                        <div class="image-placeholder office-exterior">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3 21L21 21"/>
+                                <path d="M5 21V7L13 2L21 7V21"/>
+                                <path d="M9 9H15"/>
+                                <path d="M9 12H15"/>
+                                <path d="M9 15H15"/>
+                            </svg>
+                            <p>328 Hemphill St<br>Fort Worth, TX</p>
+                        </div>
+                    </div>
+                    <div class="office-image">
+                        <div class="image-placeholder team-photo">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17 21V19C17 16.7909 15.2091 15 13 15H5C2.79086 15 1 16.7909 1 19V21"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21V19C23 17.1362 21.7252 15.5701 20 15.126"/>
+                                <path d="M16 3.12598C17.7252 3.56992 19 5.13616 19 7C19 8.86384 17.7252 10.4301 16 10.874"/>
+                            </svg>
+                            <p>Our Expert Team</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -159,6 +212,80 @@
         </div>
     </section>
 
+    <!-- Case Studies Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Work</h2>
+                <p class="section-subtitle">Success stories from financial institutions and healthcare organizations</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #9CAF88, #B5C4A5);">
+                            <div class="portfolio-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Credit Union Rebrand</h3>
+                        <p>Complete brand transformation resulting in 40% increase in member engagement and 25% growth in new accounts.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Branding</span>
+                            <span class="tag">Strategy</span>
+                            <span class="tag">Digital</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #7A8A6B, #9CAF88);">
+                            <div class="portfolio-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 3V21H21V3H3Z"/>
+                                    <path d="M9 9L15 15"/>
+                                    <path d="M15 9L9 15"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Healthcare Campaign</h3>
+                        <p>Multi-channel marketing campaign that increased patient acquisition by 60% and improved brand awareness by 45%.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Campaigns</span>
+                            <span class="tag">Healthcare</span>
+                            <span class="tag">ROI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #B5C4A5, #D4E0C9);">
+                            <div class="portfolio-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 12H18L15 21L9 3L6 12H2"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Digital Transformation</h3>
+                        <p>Led comprehensive digital marketing overhaul resulting in 200% increase in online engagement and lead generation.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Digital</span>
+                            <span class="tag">Analytics</span>
+                            <span class="tag">Growth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
@@ -197,6 +324,63 @@
                         <div class="award">CUNA Diamond Awards</div>
                         <div class="award">CUES Golden Mirror Awards</div>
                         <div class="award">Cornerstone Credit Union League Pinnacle Awards</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Client Testimonials with Logos -->
+            <div class="testimonials">
+                <h3>What Our Clients Say</h3>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Kearley & Company has been a partner of ours for more than 20 years. With each project, they continue to prove their expertise in our industry."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="client-logo">
+                                <div class="logo-placeholder aafcu-logo">
+                                    <span>AAFCU</span>
+                                </div>
+                            </div>
+                            <div class="author-info">
+                                <strong>Kimberly McDaniel</strong>
+                                <span>Director of Marketing, American Airlines Federal Credit Union</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"They brought to life exactly what we were looking for. Their staff was and still is easy to work with while delivering quickly what we need."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="client-logo">
+                                <div class="logo-placeholder css-logo">
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                            <div class="author-info">
+                                <strong>Monica Brown</strong>
+                                <span>Co-Owner, Control Specialist Services</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"I am so lucky to have Kearley & Company to help me market our nonprofit. They created a beautiful branding guide for us so quickly."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="client-logo">
+                                <div class="logo-placeholder ecu-logo">
+                                    <span>ECU</span>
+                                </div>
+                            </div>
+                            <div class="author-info">
+                                <strong>Tricia Bass</strong>
+                                <span>Executive Director, ECU Foundation</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
