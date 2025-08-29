@@ -1,38 +1,52 @@
-# Professional Portfolio (Offline-Friendly)
+# Elisa Rode - Marketing Consultant Website
 
-This repo contains a simple, fully offline portfolio website you can open directly in a browser. No package installs, no CDNs, no build tools.
+A contemporary, professional website for Elisa Rode, marketing consultant and CEO of Kearley & Company.
 
-## How to use
+## Features
 
-- Open `index.html` in your browser to view the site.
-- Edit the content in the HTML files to personalize:
-  - `index.html`: Hero, featured projects, resume link
-  - `about.html`: Bio, skills, values
-  - `projects.html`: Full project list
-  - `contact.html`: Email and social links
-- Replace placeholder text and update links (e.g., your email, LinkedIn, GitHub).
-- The image `Elisa-1.jpg` and resume file `E_Rode_Resume_2024.docx` are currently referenced from the repo root. You can keep them there or move them into `assets/` and update the links.
+- **Modern Design**: Clean, contemporary layout with sage green as the primary color
+- **Responsive**: Fully responsive design that works on all devices
+- **Professional**: Focused on showcasing marketing expertise and experience
+- **Performance**: Optimized for fast loading and smooth interactions
+- **Accessibility**: Built with accessibility best practices
 
-## Editing Tips
+## Design Elements
 
-- Keep project cards concise: problem → solution → impact → tech.
-- Prefer PNG/JPG images stored locally to keep everything offline.
-- For a printable resume link, consider exporting to PDF and updating the link.
+- **Color Palette**: Sage green (#9CAF88) primary with complementary neutrals
+- **Typography**: Inter for body text, Playfair Display for headings
+- **Layout**: Clean grid-based layout with strategic use of whitespace
+- **Interactive Elements**: Smooth scrolling, hover effects, and form validation
 
-## Structure
+## Sections
 
-- `index.html` — Landing page
-- `about.html` — About and skills
-- `projects.html` — Projects overview
-- `contact.html` — Contact methods
-- `css/styles.css` — Styles (no external fonts)
-- `assets/` — Optional folder for images and documents
+1. **Hero**: Eye-catching introduction with call-to-action
+2. **About**: Professional background and credentials
+3. **Services**: Marketing services offered
+4. **Experience**: Timeline and industry recognition
+5. **Contact**: Contact form and information
 
-## Offline by design
+## Technologies Used
 
-- No external fonts, icons, or scripts.
-- Uses a system-font stack and pure CSS for responsiveness.
+- HTML5 semantic markup
+- CSS3 with custom properties and grid/flexbox
+- Vanilla JavaScript for interactivity
+- Google Fonts (Inter & Playfair Display)
+- Modern web standards and best practices
 
-## Next steps (optional)
+## Browser Support
 
-- If you later want a blog or templates, we can introduce a static site generator. That would require installing tooling and (brief) network access to fetch dependencies.
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Contact Information
+
+- **Email**: elisa@kearley.com
+- **Phone**: 817-870-2717
+- **Company**: Kearley & Company
+- **Location**: Fort Worth, TX
+
+---
+
+© 2025 Elisa Rode. All rights reserved.

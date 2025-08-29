@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elisa Rode — Portfolio</title>
+    <meta name="description" content="Portfolio of Elisa Rode — agency owner, CEO, and marketing strategist." />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">Elisa Rode</a>
+        <nav aria-label="Primary">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <img class="avatar" src="Elisa-1.jpg" alt="Portrait of Elisa Rode" width="320" height="320" />
+        <div class="hero-copy">
+          <h1>Agency Owner &amp; CEO at Kearley &amp; Company</h1>
+          <p>I lead brand, campaign, and digital initiatives for financial and healthcare clients nationwide.</p>
+          <div class="cta">
+            <a class="btn primary" href="projects.html">View Projects</a>
+            <a class="btn" href="E_Rode_Resume_2024.docx">Download Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Featured Work</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Project Alpha</h3>
+            <p>Campaign and brand work advancing member growth and loyalty.</p>
+            <p class="meta">Role: Lead | Focus: Strategy, Creative</p>
+            <a class="btn small" href="projects.html#alpha">Details</a>
+          </article>
+          <article class="card">
+            <h3>Project Beta</h3>
+            <p>Cross‑channel initiative improving awareness and conversion.</p>
+            <p class="meta">Role: IC | Focus: Copy, Messaging</p>
+            <a class="btn small" href="projects.html#beta">Details</a>
+          </article>
+          <article class="card">
+            <h3>Project Gamma</h3>
+            <p>Data‑informed optimization across email, web, and social.</p>
+            <p class="meta">Role: PM | Focus: Digital, Analytics</p>
+            <a class="btn small" href="projects.html#gamma">Details</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Recognition</h2>
+        <p class="meta">Selected industry programs recognizing our work</p>
+        <ul class="tags">
+          <li>American Advertising Awards (ADDYs)</li>
+          <li>CUNA Diamond Awards</li>
+          <li>CUES Golden Mirror Awards</li>
+          <li>Cornerstone Credit Union League Pinnacle Awards</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Elisa Rode. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
