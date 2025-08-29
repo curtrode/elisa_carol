@@ -189,6 +189,7 @@ p {
   flex-direction: column;
   cursor: pointer;
   gap: 4px;
+  z-index: 1001;
 }
 
 .hamburger span {
@@ -659,6 +660,10 @@ section {
 }
 
 @media (max-width: 768px) {
+  .hamburger {
+    display: flex !important;
+  }
+  
   .nav-menu {
     position: fixed;
     top: 80px;
@@ -672,6 +677,7 @@ section {
     transition: transform 0.3s ease;
     z-index: 999;
     border-top: 1px solid var(--gray-200);
+    display: flex;
   }
   
   .nav-menu.active {
@@ -690,7 +696,7 @@ section {
   }
   
   .hamburger {
-    display: flex;
+    display: flex !important;
   }
   
   .hamburger.active span:nth-child(1) {
